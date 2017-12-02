@@ -33,7 +33,7 @@ mobs:register_mob("kpgmobs:deer", {
 	
 	
 })
-mobs:register_spawn("kpgmobs:deer", {"default:dirt_with_grass"}, 20, 8, 27000, 1, 31000)
+mobs:register_spawn("kpgmobs:deer", {"default:dirt_with_grass"}, 20, 8, 27000, 1, 51000)
 mobs:register_egg("kpgmobs:deer", "Deer", "wool_violet.png", 1)
 
 -- Jeraf
@@ -69,7 +69,7 @@ mobs:register_mob("kpgmobs:jeraf", {
 	view_range = 5,
 	
 })
-mobs:register_spawn("kpgmobs:jeraf", {"default:desert_sand", "default:dirt_with_dry_grass"}, 20, 8, 27000, 1, 31000)
+mobs:register_spawn("kpgmobs:jeraf", {"default:desert_sand", "default:dirt_with_dry_grass"}, 20, 8, 27000, 1, 51000)
 mobs:register_egg("kpgmobs:jeraf", "Giraffe", "wool_yellow.png", 1)
 
 -- Bear
@@ -112,7 +112,7 @@ mobs:register_mob("kpgmobs:medved", {
 		punch_end = 100,
 	},
 })
-mobs:register_spawn("kpgmobs:medved", {"default:dirt_with_grass","default:dirt"}, 20, 0, 44000, 3, 31000)
+mobs:register_spawn("kpgmobs:medved", {"default:dirt_with_grass","default:dirt"}, 20, 0, 44000, 3, 51000)
 mobs:register_egg("kpgmobs:medved", "Bear", "wool_brown.png", 1)
 
 if minetest.setting_get("log_mods") then
