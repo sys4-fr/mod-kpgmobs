@@ -115,6 +115,6 @@ mobs:register_mob("kpgmobs:medved", {
 mobs:register_spawn("kpgmobs:medved", {"default:dirt_with_grass","default:dirt"}, 20, 0, 100000, 3, 31000)
 mobs:register_egg("kpgmobs:medved", "Bear", "wool_brown.png", 1)
 
-if minetest.setting_get("log_mods") then
+if minetest.settings:get("log_mods") then
 	minetest.log("action", "kpgmobs loaded")
 end
